@@ -1,0 +1,37 @@
+module reverse(rightB, reverseB);
+  input [31:0] rightB;
+  output [31:0] reverseB; 
+  
+  not notgate0(reverseB[0], rightB[0]);
+  not notgate1(reverseB[1], rightB[1]);
+  not notgate2(reverseB[2], rightB[2]);
+  not notgate3(reverseB[3], rightB[3]);
+  not notgate4(reverseB[4], rightB[4]);
+  not notgate5(reverseB[5], rightB[5]);
+  not notgate6(reverseB[6], rightB[6]);
+  not notgate7(reverseB[7], rightB[7]);
+  not notgate8(reverseB[8], rightB[8]);
+  not notgate9(reverseB[9], rightB[9]);
+  not notgate10(reverseB[10], rightB[10]);
+  not notgate11(reverseB[11], rightB[11]);
+  not notgate12(reverseB[12], rightB[12]);
+  not notgate13(reverseB[13], rightB[13]);
+  not notgate14(reverseB[14], rightB[14]);
+  not notgate15(reverseB[15], rightB[15]);
+  not notgate16(reverseB[16], rightB[16]);
+  not notgate17(reverseB[17], rightB[17]);
+  not notgate18(reverseB[18], rightB[18]);
+  not notgate19(reverseB[19], rightB[19]);
+  not notgate20(reverseB[20], rightB[20]);
+  not notgate21(reverseB[21], rightB[21]);
+  not notgate22(reverseB[22], rightB[22]);
+  not notgate23(reverseB[23], rightB[23]);
+  not notgate24(reverseB[24], rightB[24]);
+  not notgate25(reverseB[25], rightB[25]);
+  not notgate26(reverseB[26], rightB[26]);
+  not notgate27(reverseB[27], rightB[27]);
+  not notgate28(reverseB[28], rightB[28]);
+  not notgate29(reverseB[29], rightB[29]);
+  not notgate30(reverseB[30], rightB[30]);
+  not notgate31(reverseB[31], rightB[31]);   
+endmodule
